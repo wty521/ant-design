@@ -17,7 +17,7 @@ Normal messages as feedbacks.
 import { message, Button } from 'antd';
 
 const info = () => {
-  message.info('This is a normal message');
+  message.info(<div><p>This is a</p><p> normal message</p></div>');
 };
 
 ReactDOM.render(
